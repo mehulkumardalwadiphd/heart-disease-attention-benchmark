@@ -1,0 +1,14 @@
+# Versions the reported results were produced with (Python 3.12.4, CPU only);
+# results/run_info.json records them for every run.
+
+# Experiment (pipeline.py, build_tables.py, make_figures.py)
+numpy>=2.4
+pandas>=3.0
+scipy>=1.13
+scikit-learn>=1.9
+xgboost>=3.3
+torch>=2.13
+shap>=0.52
+joblib>=1.4
+matplotlib>=3.9
+
