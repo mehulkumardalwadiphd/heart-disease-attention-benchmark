@@ -1,0 +1,28 @@
+site,model,key,n,positive,negative,roc_auc_mean,strat_ci_low,strat_ci_high,boot_sd,n_boot
+Hungarian,Decision Tree,DT,294,106,188,0.7062,0.6562,0.7515,0.0247,1000
+Hungarian,Feature-token affine control,FT-Affine,294,106,188,0.8749,0.8306,0.9138,0.0212,1000
+Hungarian,Feature-token attention,FT-Attn,294,106,188,0.8742,0.8274,0.9139,0.0218,1000
+Hungarian,Logistic Regression,LR,294,106,188,0.8716,0.8248,0.9128,0.0226,1000
+Hungarian,MLP,MLP,294,106,188,0.8638,0.8157,0.9066,0.0232,1000
+Hungarian,Random Forest,RF,294,106,188,0.8779,0.8381,0.915,0.0197,1000
+Hungarian,Single-token affine control,ST-Affine,294,106,188,0.8599,0.8149,0.9018,0.0227,1000
+Hungarian,Single-token attention (T = 1),ST-Attn,294,106,188,0.8643,0.819,0.9033,0.0222,1000
+Hungarian,XGBoost,XGB,294,106,188,0.8408,0.7902,0.887,0.0244,1000
+Switzerland,Decision Tree,DT,123,115,8,0.6604,0.5283,0.7678,0.0612,1000
+Switzerland,Feature-token affine control,FT-Affine,123,115,8,0.7241,0.5172,0.9197,0.1053,1000
+Switzerland,Feature-token attention,FT-Attn,123,115,8,0.7454,0.5744,0.8904,0.0826,1000
+Switzerland,Logistic Regression,LR,123,115,8,0.75,0.5967,0.8935,0.0747,1000
+Switzerland,MLP,MLP,123,115,8,0.7355,0.5913,0.8809,0.0757,1000
+Switzerland,Random Forest,RF,123,115,8,0.7524,0.58,0.9108,0.0856,1000
+Switzerland,Single-token affine control,ST-Affine,123,115,8,0.7251,0.581,0.8675,0.0742,1000
+Switzerland,Single-token attention (T = 1),ST-Attn,123,115,8,0.7422,0.5965,0.8751,0.0719,1000
+Switzerland,XGBoost,XGB,123,115,8,0.6804,0.5433,0.8088,0.0717,1000
+VA Long Beach,Decision Tree,DT,200,149,51,0.5824,0.5206,0.6458,0.0324,1000
+VA Long Beach,Feature-token affine control,FT-Affine,200,149,51,0.7272,0.6455,0.8008,0.0403,1000
+VA Long Beach,Feature-token attention,FT-Attn,200,149,51,0.719,0.633,0.794,0.0407,1000
+VA Long Beach,Logistic Regression,LR,200,149,51,0.7325,0.6513,0.8064,0.0394,1000
+VA Long Beach,MLP,MLP,200,149,51,0.7224,0.6458,0.7894,0.0373,1000
+VA Long Beach,Random Forest,RF,200,149,51,0.7144,0.6302,0.7901,0.041,1000
+VA Long Beach,Single-token affine control,ST-Affine,200,149,51,0.7108,0.6373,0.7809,0.0373,1000
+VA Long Beach,Single-token attention (T = 1),ST-Attn,200,149,51,0.7149,0.6439,0.7887,0.0373,1000
+VA Long Beach,XGBoost,XGB,200,149,51,0.6957,0.6086,0.7807,0.0432,1000

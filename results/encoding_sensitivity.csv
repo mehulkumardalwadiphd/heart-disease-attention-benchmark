@@ -1,0 +1,10 @@
+model,key,onehot_auc,onehot_auc_sd,integer_auc,integer_auc_sd,difference
+Logistic Regression,LR,0.9065,0.0418,0.8983,0.0423,-0.0082
+Decision Tree,DT,0.7239,0.054,0.7247,0.0537,0.0008
+Random Forest,RF,0.8973,0.0493,0.8979,0.047,0.0006
+XGBoost,XGB,0.8753,0.0463,0.8731,0.0471,-0.0022
+MLP,MLP,0.9029,0.0415,0.8944,0.0449,-0.0085
+Single-token attention (T = 1),ST-Attn,0.8973,0.0447,0.888,0.0456,-0.0093
+Single-token affine control,ST-Affine,0.9002,0.0453,0.8897,0.046,-0.0105
+Feature-token attention,FT-Attn,0.8966,0.0425,0.8946,0.0552,-0.002
+Feature-token affine control,FT-Affine,0.8975,0.0385,0.8951,0.0435,-0.0024

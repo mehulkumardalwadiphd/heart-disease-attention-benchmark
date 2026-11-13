@@ -1,0 +1,48 @@
+{
+  "sites": {
+    "Cleveland": {
+      "file": "data/processed.cleveland.data",
+      "sha256": "a0761de376d0eeb8aafbf53b7c5bc77bab75b353fb691a4d684306400ee40333",
+      "rows": 303,
+      "positive": 139,
+      "source": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data"
+    },
+    "Hungarian": {
+      "file": "data/processed.hungarian.data",
+      "sha256": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796",
+      "rows": 294,
+      "positive": 106,
+      "source": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.hungarian.data"
+    },
+    "Switzerland": {
+      "file": "data/processed.switzerland.data",
+      "sha256": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314",
+      "rows": 123,
+      "positive": 115,
+      "source": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.switzerland.data"
+    },
+    "VA Long Beach": {
+      "file": "data/processed.va.data",
+      "sha256": "e7c93d8d0d2acdadfa4c5e8de768e2191e7f618b952e29623f1f0d5949ff6b8f",
+      "rows": 200,
+      "positive": 149,
+      "source": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.va.data"
+    }
+  },
+  "analysis_set": {
+    "site": "Cleveland",
+    "rows_raw": 303,
+    "rows_dropped_missing": 6,
+    "rows_used": 297,
+    "positive": 137,
+    "negative": 160,
+    "target": "num > 0 (angiographic narrowing > 50% in any major vessel)"
+  },
+  "variable_definitions": {
+    "file": "data/heart-disease.names",
+    "sha256": "ec7ed5aa4ed8321097808f47b836301c2a0c36f3bb09c40b8b43b622363e6b61",
+    "thal": "thallium stress test: 3 = normal, 6 = fixed defect, 7 = reversible defect",
+    "dataset_doi": "10.24432/C52P4X",
+    "licence": "CC BY 4.0"
+  }
+}

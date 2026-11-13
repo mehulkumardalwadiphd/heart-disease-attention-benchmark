@@ -1,0 +1,4 @@
+run,commit,note,test_patients,accuracy,roc_auc
+Run 1,d808aef,first full run,60,0.7333,0.9163
+Run 2,e8a2b9e,after the 8-issue review fixes,60,0.8167,0.8906
+Run 3,37770dd,after the SHAP code fix and re-run; the submitted result,60,0.9,0.9464

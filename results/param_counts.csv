@@ -1,0 +1,11 @@
+encoding,model,key,parameters,input_shape
+onehot,MLP,MLP,13313,"(B, 22)"
+onehot,Single-token attention (T = 1),ST-Attn,46657,"(B, 22) -> (B, 1, 64), T = 1"
+onehot,Single-token affine control,ST-Affine,17601,"(B, 22) -> (B, 1, 64), T = 1"
+onehot,Feature-token attention,FT-Attn,18401,"(B, 13, 32) tokens"
+onehot,Feature-token affine control,FT-Affine,12065,"(B, 13, 32) tokens"
+integer,MLP,MLP,12161,"(B, 13)"
+integer,Single-token attention (T = 1),ST-Attn,45505,"(B, 13) -> (B, 1, 64), T = 1"
+integer,Single-token affine control,ST-Affine,16449,"(B, 13) -> (B, 1, 64), T = 1"
+integer,Feature-token attention,FT-Attn,18017,"(B, 13, 32) tokens"
+integer,Feature-token affine control,FT-Affine,11681,"(B, 13, 32) tokens"

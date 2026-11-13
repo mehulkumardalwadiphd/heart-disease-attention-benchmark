@@ -1,0 +1,40 @@
+model_a,model_b,key_a,key_b,metric,mean_diff,ci_low,ci_high,t,p,a_wins_folds,ties,folds,p_holm
+Decision Tree,Logistic Regression,DT,LR,roc_auc,-0.1736,-0.2203,-0.127,-7.484,0.0,0,0,50,0.0
+Random Forest,Logistic Regression,RF,LR,roc_auc,-0.0004,-0.0224,0.0217,-0.035,0.9724,24,1,50,1.0
+XGBoost,Logistic Regression,XGB,LR,roc_auc,-0.0252,-0.0532,0.0029,-1.805,0.0772,8,0,50,0.9261
+MLP,Logistic Regression,MLP,LR,roc_auc,-0.0039,-0.0244,0.0167,-0.379,0.7066,21,0,50,1.0
+Single-token attention (T = 1),Logistic Regression,ST-Attn,LR,roc_auc,-0.0103,-0.0324,0.0117,-0.941,0.3515,15,1,50,1.0
+Single-token affine control,Logistic Regression,ST-Affine,LR,roc_auc,-0.0086,-0.0276,0.0104,-0.91,0.3673,15,1,50,1.0
+Feature-token attention,Logistic Regression,FT-Attn,LR,roc_auc,-0.0037,-0.0288,0.0214,-0.296,0.7688,24,0,50,1.0
+Feature-token affine control,Logistic Regression,FT-Affine,LR,roc_auc,-0.0032,-0.0255,0.0191,-0.289,0.7739,22,1,50,1.0
+Feature-token attention,Feature-token affine control,FT-Attn,FT-Affine,roc_auc,-0.0005,-0.0276,0.0266,-0.036,0.9715,27,2,50,1.0
+Single-token attention (T = 1),Single-token affine control,ST-Attn,ST-Affine,roc_auc,-0.0017,-0.0173,0.0139,-0.221,0.8257,22,1,50,1.0
+Feature-token attention,Single-token attention (T = 1),FT-Attn,ST-Attn,roc_auc,0.0066,-0.0197,0.033,0.507,0.6144,36,0,50,1.0
+Feature-token attention,MLP,FT-Attn,MLP,roc_auc,0.0002,-0.0291,0.0295,0.012,0.9903,25,2,50,1.0
+Feature-token attention,Random Forest,FT-Attn,RF,roc_auc,-0.0033,-0.0303,0.0237,-0.246,0.8065,26,0,50,1.0
+Decision Tree,Logistic Regression,DT,LR,accuracy,-0.1024,-0.1577,-0.0471,-3.719,0.0005,0,3,50,0.0067
+Random Forest,Logistic Regression,RF,LR,accuracy,-0.0088,-0.047,0.0294,-0.463,0.6456,17,7,50,1.0
+XGBoost,Logistic Regression,XGB,LR,accuracy,-0.0331,-0.0887,0.0226,-1.194,0.2381,11,4,50,1.0
+MLP,Logistic Regression,MLP,LR,accuracy,-0.0061,-0.0396,0.0274,-0.367,0.7152,14,16,50,1.0
+Single-token attention (T = 1),Logistic Regression,ST-Attn,LR,accuracy,-0.0128,-0.0485,0.0228,-0.724,0.4726,10,13,50,1.0
+Single-token affine control,Logistic Regression,ST-Affine,LR,accuracy,-0.0081,-0.0443,0.028,-0.453,0.6527,17,9,50,1.0
+Feature-token attention,Logistic Regression,FT-Attn,LR,accuracy,-0.0008,-0.0354,0.0339,-0.045,0.9646,22,6,50,1.0
+Feature-token affine control,Logistic Regression,FT-Affine,LR,accuracy,-0.0092,-0.0515,0.0332,-0.435,0.6654,16,6,50,1.0
+Feature-token attention,Feature-token affine control,FT-Attn,FT-Affine,accuracy,0.0084,-0.0299,0.0467,0.441,0.661,27,6,50,1.0
+Single-token attention (T = 1),Single-token affine control,ST-Attn,ST-Affine,accuracy,-0.0047,-0.0301,0.0207,-0.372,0.7117,12,19,50,1.0
+Feature-token attention,Single-token attention (T = 1),FT-Attn,ST-Attn,accuracy,0.0121,-0.0296,0.0538,0.582,0.5634,27,7,50,1.0
+Feature-token attention,MLP,FT-Attn,MLP,accuracy,0.0053,-0.0347,0.0454,0.268,0.7897,26,4,50,1.0
+Feature-token attention,Random Forest,FT-Attn,RF,accuracy,0.008,-0.0288,0.0449,0.438,0.6633,24,10,50,1.0
+Decision Tree,Logistic Regression,DT,LR,brier,0.1484,0.103,0.1939,6.569,0.0,50,0,50,0.0
+Random Forest,Logistic Regression,RF,LR,brier,0.0038,-0.0119,0.0195,0.485,0.6297,28,0,50,1.0
+XGBoost,Logistic Regression,XGB,LR,brier,0.0375,0.0058,0.0692,2.379,0.0213,45,0,50,0.2556
+MLP,Logistic Regression,MLP,LR,brier,0.0093,-0.01,0.0286,0.965,0.3392,34,0,50,1.0
+Single-token attention (T = 1),Logistic Regression,ST-Attn,LR,brier,0.0183,-0.0057,0.0423,1.53,0.1326,39,0,50,1.0
+Single-token affine control,Logistic Regression,ST-Affine,LR,brier,0.0171,-0.0053,0.0395,1.534,0.1315,39,0,50,1.0
+Feature-token attention,Logistic Regression,FT-Attn,LR,brier,0.0075,-0.0103,0.0254,0.848,0.4008,35,0,50,1.0
+Feature-token affine control,Logistic Regression,FT-Affine,LR,brier,0.0052,-0.0123,0.0227,0.595,0.5548,33,0,50,1.0
+Feature-token attention,Feature-token affine control,FT-Attn,FT-Affine,brier,0.0024,-0.0174,0.0221,0.239,0.8124,25,0,50,1.0
+Single-token attention (T = 1),Single-token affine control,ST-Attn,ST-Affine,brier,0.0012,-0.0148,0.0172,0.15,0.8814,27,0,50,1.0
+Feature-token attention,Single-token attention (T = 1),FT-Attn,ST-Attn,brier,-0.0108,-0.0363,0.0148,-0.845,0.402,20,0,50,1.0
+Feature-token attention,MLP,FT-Attn,MLP,brier,-0.0018,-0.0213,0.0178,-0.181,0.8572,23,0,50,1.0
+Feature-token attention,Random Forest,FT-Attn,RF,brier,0.0037,-0.0156,0.0231,0.387,0.7006,30,0,50,1.0

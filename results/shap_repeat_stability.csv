@@ -1,0 +1,10 @@
+model,key,rho_between_repeats_mean,rho_between_repeats_min
+Logistic Regression,LR,0.989,0.9835
+Decision Tree,DT,0.9139,0.8626
+Random Forest,RF,0.9799,0.9725
+XGBoost,XGB,0.9652,0.9505
+MLP,MLP,0.9597,0.9451
+Single-token attention (T = 1),ST-Attn,0.9597,0.9396
+Single-token affine control,ST-Affine,0.9762,0.9615
+Feature-token attention,FT-Attn,0.9194,0.8791
+Feature-token affine control,FT-Affine,0.9194,0.8846

@@ -1,0 +1,6 @@
+model,key,inits,folds,auc_sd_within_fold_mean,auc_sd_within_fold_max,auc_range_within_fold_max,accuracy_sd_within_fold_mean
+MLP,MLP,5,5,0.006,0.0093,0.0243,0.0243
+Single-token attention (T = 1),ST-Attn,5,5,0.0121,0.0186,0.0446,0.0209
+Single-token affine control,ST-Affine,5,5,0.0106,0.0128,0.0336,0.028
+Feature-token attention,FT-Attn,5,5,0.0116,0.0163,0.0451,0.0251
+Feature-token affine control,FT-Affine,5,5,0.0084,0.0118,0.0312,0.0218

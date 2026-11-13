@@ -1,0 +1,37 @@
+model_a,model_b,key_a,key_b,rho,ci_low,ci_high
+Logistic Regression,Decision Tree,LR,DT,0.5495,0.4945,0.6209
+Logistic Regression,Random Forest,LR,RF,0.8297,0.7637,0.8626
+Logistic Regression,XGBoost,LR,XGB,0.8407,0.7253,0.8626
+Logistic Regression,MLP,LR,MLP,0.9231,0.8791,0.9231
+Logistic Regression,Single-token attention (T = 1),LR,ST-Attn,0.9231,0.9176,0.9396
+Logistic Regression,Single-token affine control,LR,ST-Affine,0.9286,0.8956,0.9286
+Logistic Regression,Feature-token attention,LR,FT-Attn,0.9835,0.9505,0.9835
+Logistic Regression,Feature-token affine control,LR,FT-Affine,0.9396,0.8901,0.9396
+Decision Tree,Random Forest,DT,RF,0.6813,0.6429,0.7419
+Decision Tree,XGBoost,DT,XGB,0.8022,0.7692,0.8846
+Decision Tree,MLP,DT,MLP,0.6099,0.5934,0.7033
+Decision Tree,Single-token attention (T = 1),DT,ST-Attn,0.6813,0.6374,0.7639
+Decision Tree,Single-token affine control,DT,ST-Affine,0.6978,0.6648,0.7418
+Decision Tree,Feature-token attention,DT,FT-Attn,0.5879,0.5604,0.6538
+Decision Tree,Feature-token affine control,DT,FT-Affine,0.6648,0.5989,0.6923
+Random Forest,XGBoost,RF,XGB,0.7747,0.7582,0.8628
+Random Forest,MLP,RF,MLP,0.9176,0.846,0.9341
+Random Forest,Single-token attention (T = 1),RF,ST-Attn,0.9011,0.8462,0.9231
+Random Forest,Single-token affine control,RF,ST-Affine,0.9121,0.8736,0.9286
+Random Forest,Feature-token attention,RF,FT-Attn,0.8571,0.8132,0.8956
+Random Forest,Feature-token affine control,RF,FT-Affine,0.9121,0.8571,0.9231
+XGBoost,MLP,XGB,MLP,0.7363,0.6429,0.8022
+XGBoost,Single-token attention (T = 1),XGB,ST-Attn,0.7967,0.7198,0.8683
+XGBoost,Single-token affine control,XGB,ST-Affine,0.8187,0.7416,0.8681
+XGBoost,Feature-token attention,XGB,FT-Attn,0.8407,0.7416,0.8628
+XGBoost,Feature-token affine control,XGB,FT-Affine,0.8956,0.8077,0.9232
+MLP,Single-token attention (T = 1),MLP,ST-Attn,0.9725,0.956,0.989
+MLP,Single-token affine control,MLP,ST-Affine,0.978,0.9615,0.989
+MLP,Feature-token attention,MLP,FT-Attn,0.9341,0.9011,0.967
+MLP,Feature-token affine control,MLP,FT-Affine,0.8901,0.8242,0.9011
+Single-token attention (T = 1),Single-token affine control,ST-Attn,ST-Affine,0.9945,0.978,1.0
+Single-token attention (T = 1),Feature-token attention,ST-Attn,FT-Attn,0.9451,0.9341,0.978
+Single-token attention (T = 1),Feature-token affine control,ST-Attn,FT-Affine,0.9286,0.8626,0.9341
+Single-token affine control,Feature-token attention,ST-Affine,FT-Attn,0.9505,0.9341,0.978
+Single-token affine control,Feature-token affine control,ST-Affine,FT-Affine,0.9341,0.8901,0.9396
+Feature-token attention,Feature-token affine control,FT-Attn,FT-Affine,0.9615,0.9341,0.9672

@@ -1,0 +1,2 @@
+rho_global,ci_low,ci_high,rho_per_patient_median,rho_per_patient_q1,rho_per_patient_q3,patients,explanations,uniform_attention
+0.7802,0.7143,0.8352,0.3901,0.1868,0.5549,297,891,0.076923

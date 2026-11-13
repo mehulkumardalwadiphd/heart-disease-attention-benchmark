@@ -1,0 +1,50 @@
+{
+  "finished_at": "2026-10-04T20:53:21",
+  "python": "3.12.4",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.13.0+cu126",
+  "sklearn": "1.9.0",
+  "shap": "0.52.0",
+  "xgboost": "3.3.0",
+  "numpy": "2.4.0",
+  "pandas": "3.0.5",
+  "config": {
+    "seed": 42,
+    "n_splits": 5,
+    "n_repeats": 10,
+    "val_frac": 0.15,
+    "max_epochs": 200,
+    "patience": 20,
+    "batch": 16,
+    "lr": 0.001,
+    "shap_repeats": 3,
+    "shap_background": 25,
+    "shap_nsamples": 1024,
+    "shap_check": {
+      "bg": 50,
+      "nsamples": 4096,
+      "seed_offset": 7
+    },
+    "ft_default": {
+      "d": 32,
+      "heads": 4,
+      "blocks": 2,
+      "attn_dropout": 0.2,
+      "ffn_dropout": 0.1
+    },
+    "external_seeds": 10,
+    "init_seeds": 5,
+    "bootstrap": 1000
+  },
+  "stage_seconds": {
+    "cv": 1506.0,
+    "sensitivity": 83.2,
+    "ablation": 357.9,
+    "cv_ext": 62.9,
+    "external": 545.5,
+    "attrib": 40.6,
+    "seeds": 33.3
+  },
+  "smoke": false,
+  "code_sha256_12": "bdf10942df36"
+}

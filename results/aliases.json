@@ -1,0 +1,19 @@
+{
+  "LR": "Logistic Regression",
+  "DT": "Decision Tree",
+  "RF": "Random Forest",
+  "XGB": "XGBoost",
+  "MLP": "MLP",
+  "ST-Attn": "Single-token attention (T = 1)",
+  "ST-Affine": "Single-token affine control",
+  "FT-Attn": "Feature-token attention",
+  "FT-Affine": "Feature-token affine control",
+  "logistic regression": "Logistic Regression",
+  "decision tree": "Decision Tree",
+  "random forest": "Random Forest",
+  "xgboost": "XGBoost",
+  "feature-token attention model": "Feature-token attention",
+  "feature-token affine control": "Feature-token affine control",
+  "single-token attention model": "Single-token attention (T = 1)",
+  "single-token affine control": "Single-token affine control"
+}

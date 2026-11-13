@@ -1,0 +1,24 @@
+{
+  "ext": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak"
+  ],
+  "ext_plus": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "chol",
+    "fbs"
+  ]
+}

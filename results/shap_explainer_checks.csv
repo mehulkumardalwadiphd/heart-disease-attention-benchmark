@@ -1,0 +1,8 @@
+comparison,rho_importance,ci_low,ci_high,pearson_values
+RF: Kernel SHAP vs interventional TreeSHAP,0.9945,0.9945,1.0,0.9997
+"Logistic Regression: 25 bg/1024 samples vs 50 bg/4096 samples, new seed",1.0,0.9835,1.0,
+"Random Forest: 25 bg/1024 samples vs 50 bg/4096 samples, new seed",0.9835,0.9725,1.0,
+"MLP: 25 bg/1024 samples vs 50 bg/4096 samples, new seed",1.0,0.989,1.0,
+"Feature-token attention: 25 bg/1024 samples vs 50 bg/4096 samples, new seed",1.0,0.978,1.0,
+RF vs Feature-token attention under the larger budget (repeat 0),0.8791,0.8681,0.956,
+RF vs Feature-token attention under the main budget (repeat 0),0.8901,0.8681,0.9615,
